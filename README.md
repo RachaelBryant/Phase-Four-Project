@@ -74,7 +74,13 @@ The Hypertuned Random Forest model also displayed the best ROC curve in comparis
 
 
 ## Conclusion
-The best model for understanding positive and negative tweets for Twitter is the Random Forest model as it has the highest Recall score, highest scores on both the train and test sets and the least false positives. I would recommend that the company can use this model in sorting through the massive amounts of tweets sent everyday in order to make their workflow easier, the marketing more targeted depending on the times in which they recieve more negative tweets than others, and this will lead to a better understanding of the emotions of people when they are tweeting about different devices and products.
+-I would recommend that Twitter can use this Random Forest model in sorting through the massive amounts of tweets sent everyday in order to make their workflow easier
+-Ensure more targeted marketing 
+-This will lead to a better understanding of the emotions of people when they are tweeting about different devices and products
+
+
+## Recommendations
+The most frequent words, especially the top 5 of sxsw, mention, ipad, and link can be utilized at Twitter marketing to understand how to promote and market more effectively.
 
 ## Next Steps
 -Utilizing multi class classification for a ‘neutral’ emotion
