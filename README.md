@@ -1,7 +1,7 @@
 # Phase-Four-Project
 
 # Classifying Positive and Negative Tweets
-<img src="twitter-new-edit-tweet-.jpg" width=400 height=200 />
+<img src="Images/twitter-new-edit-tweet-.jpeg" width=400 height=200 />
 
 ### Summary of Project:
 Classifying tweets as positive or negative according to their context in order to improve Twitter's marketing is the business problem addressed in this project. The data chosen is from CrowdFlower via data.world and contains written tweets, the device to which these tweets were written about, and the emotion attributed to that tweet. There were not enough tweets classified as 'I can't tell' or 'No emotion toward brand or product' so that data was discarded, as well as the information regarding the device the emotion was directed towards. Due to the class imbalance found between the number of positive and negative tweets (84% positive and 16% negative) SMOTE (Synthetic Minority Oversampling Technique) was utilized before modeling the data in order to overcome the problem of overfitting. While exploring the data, it was discovered that word count and review length were about the same for positive and negative tweets. While preparing the data for modeling, NLK (Natural Language Toolkit) was utilized in tokenizing, lemmatization, and navigating stop words in the text. After conducting a train-test split on the data in order to properly validate the models, the data was standardized using StandardScaler and then vectorized using CountVectorizer. FreqDist from the NLK package aided in displaying the most frequent words that appear throughout the tweets (sxsw, mention, ipad, link). Basic Logistic Regression, Support Vector Machines, Stochastic Gradient Descent, Random Forest, Naive Nayes, and K-nearest Neighbors models were tested first. Logistic Regression (.96 Recall), Stochastic Gradient Descent (.96 Recall) and Random Forest (.99 Recall) were chosen for hypertuning. Stochastic Gradient Descent in a GridsearchCV resulted in a best recall score of .97 recall and false negatives occuring at 2.5%. Logistic Regression utilized GridSearchCV of estimators totalling 4800 fits resulting in a nest recall score of .93 and false negatives occuring at 5.6%. The best performing model was the Random Forest model which utilized RandomizedSearchCV totalling in 300 fits resulting in a best recall score of .99 and false negatives occuring .78%.
@@ -12,7 +12,7 @@ Classifying tweets as positive or negative according to their context in order t
 This project analyses the text of tweets in order to understand whether people tweet more negative or positive information in order to further Twitter's marketing campaign towards the appropriate demographic. This project primarily uses NLTK and base python with models of the data.
 
 ## Business Problem
-<img src="positiveneutralnegativepic.png" width=500 height=200 />
+<img src="Images/positiveneutralnegativepic.png" width=500 height=200 />
 
 
 Twitter is inquiring whether the majority of their tweets are positive or negative and requires a method in which to keep up with the wade and rise of their popularity. With this information they will be able to divert their traffic to different marketing areas to improve their reputation if it's low. We will train the data with labeled positive and negative tweets in order to choose the best model to decipher positive and negative data.
