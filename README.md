@@ -34,7 +34,7 @@ In exploring the data it was found that 15% of people who expressed a negative e
 
 With SMOTE applied to address the imbalance within the data.
 
-![image](https://user-images.githubusercontent.com/65221687/217976482-9eed101d-bc47-4b41-be68-18d5d575d6b9.png)
+![image](https://user-images.githubusercontent.com/65221687/219257477-0a70a59b-f14d-4989-9397-cdcfeda851a6.png)
 
 
 There are about the same number of words used for negative and positive tweets (N=19, P=18), however the distribution slightly differed.
