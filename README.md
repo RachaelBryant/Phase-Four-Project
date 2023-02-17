@@ -57,6 +57,12 @@ The basic models with their recall scores are: Logistic regression (.96),  Suppo
 
 ![image](https://user-images.githubusercontent.com/65221687/218289691-9ec72aeb-9d4a-4af1-8a80-559bf7aecda2.png)
 
+ 
+ K means clustering was the unsupervised method performed upon the data and the visualization of the clusters is displayed below. 
+ 
+ ![image](https://user-images.githubusercontent.com/65221687/219520404-b76fba97-daf3-42e3-881f-0f8627b0745c.png)
+
+
 ## Hypertuning
 
 The highest recall scores amongst the basic models were used for hypertuning: Stochastic Gradient Descent, Logistic Regression, and Random Forest. The Random Forest was still the highest model after hypertuning as it was before hypertuning as depicted in the model comparison figure below. 
@@ -80,7 +86,8 @@ The Hypertuned Random Forest model also displayed the best ROC curve in comparis
 
 
 ## Recommendations
-The most frequent words, especially the top 5 of sxsw, mention, ipad, and link can be utilized at Twitter marketing to understand how to promote and market more effectively.
+-The most frequent words, especially the top 5 of sxsw, mention, ipad, and link can be utilized at Twitter marketing to understand how to promote and market more effectively. 
+-They could also consider expanding the number of characters allowed per tweet (as they have expanded it once before) because the amount of words and characters per tweet did not appear to have a difference between the positive and negative tweets. 
 
 ## Next Steps
 -Utilizing multi class classification for a ‘neutral’ emotion
@@ -95,12 +102,12 @@ See the full analysis in the [Jupyter Notebook](https://github.com/rabrya0072/Ph
 For additional info, contact Rachael Bryant at Rachaelbryant94@gmail.com
 # Repository Structure
 ├── data
+├── Images
 ├── gitignore
 ├── presentation.pdf
 ├── Phase_3_project.ipynb
 ├── README.md
 ├── ROC.png
-├── positiveneutralnegativepic.png
-├── twitter-new-edit-tweet-.jpg
+
 
 
