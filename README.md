@@ -87,12 +87,16 @@ The Hypertuned Random Forest model also displayed the best ROC curve in comparis
 
 ## Recommendations
 -The most frequent words, especially the top 5 of sxsw, mention, ipad, and link can be utilized at Twitter marketing to understand how to promote and market more effectively. 
+
 -They could also consider expanding the number of characters allowed per tweet (as they have expanded it once before) because the amount of words and characters per tweet did not appear to have a difference between the positive and negative tweets. 
 
 ## Next Steps
 -Utilizing multi class classification for a ‘neutral’ emotion
+
 -Attempt to code correctly sarcastic or ironic tweets
+
 -Utilizing other vectorizers other than countvectorizer such as tfidfvectorizer.
+
 -Hypertuning other models 
 
 
